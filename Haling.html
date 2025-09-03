@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valoria Chronicles</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #0e0e0e;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+    header {
+      background: url('knight.jpg') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      font-size: 4rem;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      text-align: center;
+    }
+    .card img {
+      width: 100px; /* ukuran foto kecil */
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    .card strong {
+      font-size: 1.2rem;
+      display: block;
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background: #111;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Valoria Chronicles</h1>
+  </header>  
+
+  <section>
+    <h2>🌍 The World of Valoria</h2>
+    <p>Valoria adalah benua luas dengan pegunungan es di utara, gurun emas di selatan, hutan purba di barat, dan kepulauan misterius di timur. Dari tanah ini, peradaban tumbuh, kerajaan bangkit dan runtuh, serta legenda tercipta. Dunia ini bukan hanya sekadar tanah kosong, tetapi juga rumah bagi puluhan ras dengan budaya, sejarah, dan konflik mereka sendiri. Setiap sudut Valoria menyimpan kisah, mulai dari kerajaan agung hingga desa kecil yang tersembunyi di balik hutan lebat.</p>
+  </section>  
+
+  <section>
+    <h2>🧬 25 Races of Valoria</h2>
+    <div class="grid">
+      
+      <div class="card">
+        <img src="highelf.jpg" alt="High Elf">
+        <strong>High elf</strong><br>
+        HP: 1200 | MP: 800<br>
+        Status Unggul: Kecerdasan<br>
+        Kelebihan: Menguasai sihir alam.<br>
+        Penjelasan: Kaum elf agung yang hidup di hutan suci. Mereka memiliki hubungan erat dengan roh alam, mampu menyembuhkan luka, dan menjaga keseimbangan ekosistem.
+      </div>
+
+      <div class="card">
+        <img src="dragonkin.jpg" alt="Dragonkin Fire">
+        <strong>Dragonkin fire</strong><br>
+        HP: 1500 | MP: 500<br>
+        Status Unggul: Kekuatan<br>
+        Kelebihan: Napas naga berapi.<br>
+        Penjelasan: Keturunan naga purba dengan sisik keras. Mereka mampu menghembuskan api dan unggul dalam peperangan jarak dekat.
+      </div>
+
+      <div class="card">
+        <img src="umbrith.jpg" alt="Umbrith">
+        <strong>Umbrith</strong><br>
+        HP: 1000 | MP: 1200<br>
+        Status Unggul: Kelicikan<br>
+        Kelebihan: Ilusi bayangan.<br>
+        Penjelasan: Makhluk yang lahir dari kegelapan. Mereka ahli dalam menipu musuh, menciptakan kegelapan, dan menguasai seni ilusi.
+      </div>
+
+      <div class="card">
+        <img src="sylorian.jpg" alt="Sylorian">
+        <strong>Sylorian</strong><br>
+        HP: 1300 | MP: 600<br>
+        Status Unggul: Kepemimpinan<br>
+        Kelebihan: Strategi perang.<br>
+        Penjelasan: Bangsa manusia yang dikenal ambisius dan tangguh.
+      </div>
+
+      <div class="card">
+        <img src="feyborn.jpg" alt="Feyborn">
+        <strong>Feyborn</strong><br>
+        HP: 900 | MP: 1400<br>
+        Status Unggul: Magis<br>
+        Kelebihan: Sihir alam liar.<br>
+        Penjelasan: Keturunan peri yang lahir dari dunia lain.
+      </div>
+
+      <div class="card">
+        <img src="gorvaks.jpg" alt="Gorvaks">
+        <strong>Gorvaks</strong><br>
+        HP: 1700 | MP: 400<br>
+        Status Unggul: Pertahanan<br>
+        Kelebihan: Tubuh besar dan kuat.<br>
+        Penjelasan: Ras pegunungan dengan tubuh kekar.
+      </div>
+
+      <div class="card">
+        <img src="lunari.jpg" alt="Lunari">
+        <strong>Lunari</strong><br>
+        HP: 1100 | MP: 1300<br>
+        Status Unggul: Kebijaksanaan<br>
+        Kelebihan: Kekuatan bulan.<br>
+        Penjelasan: Ras penyembah bulan yang memperoleh kekuatan dari cahaya malam.
+      </div>
+
+      <div class="card">
+        <img src="ignivar.jpg" alt="Ignivar">
+        <strong>Ignivar</strong><br>
+        HP: 1400 | MP: 700<br>
+        Status Unggul: Api<br>
+        Kelebihan: Manipulasi api.<br>
+        Penjelasan: Kaum pejuang berapi yang lahir di gunung berapi.
+      </div>
+
+      <div class="card">
+        <img src="thalorien.jpg" alt="Thalorien">
+        <strong>Thalorien</strong><br>
+        HP: 1000 | MP: 1500<br>
+        Status Unggul: Air<br>
+        Kelebihan: Mengendalikan arus laut.<br>
+        Penjelasan: Ras penghuni laut dalam dengan kekuatan mengendalikan air.
+      </div>
+
+      <div class="card">
+        <img src="runeborn.jpg" alt="Runeborn">
+        <strong>Runeborn</strong><br>
+        HP: 1200 | MP: 1200<br>
+        Status Unggul: Sihir runa<br>
+        Kelebihan: Penyihir kuno.<br>
+        Penjelasan: Makhluk yang tubuhnya dihiasi simbol runa kuno.
+      </div>
+
+      <div class="card">
+        <img src="zephyrian.jpg" alt="Zephyrian">
+        <strong>Zephyrian</strong><br>
+        HP: 1100 | MP: 900<br>
+        Status Unggul: Kecepatan<br>
+        Kelebihan: Pengendali angin.<br>
+        Penjelasan: Ras yang tinggal di puncak gunung.
+      </div>
+
+      <div class="card">
+        <img src="terrakin.jpg" alt="Terrakin">
+        <strong>Terrakin</strong><br>
+        HP: 1600 | MP: 500<br>
+        Status Unggul: Pertahanan bumi<br>
+        Kelebihan: Tubuh batu.<br>
+        Penjelasan: Ras yang lahir dari inti bumi, memiliki tubuh seperti batu.
+      </div>
+
+      <div class="card">
+        <img src="veylar.jpg" alt="Veylar">
+        <strong>Veylar</strong><br>
+        HP: 1000 | MP: 1500<br>
+        Status Unggul: Sihir darah<br>
+        Kelebihan: Ritual pengorbanan.<br>
+        Penjelasan: Penyihir gelap yang menggunakan darah sebagai sumber kekuatan.
+      </div>
+
+      <div class="card">
+        <img src="seraphel.jpg" alt="Seraphel">
+        <strong>Seraphel</strong><br>
+        HP: 900 | MP: 1600<br>
+        Status Unggul: Cahaya<br>
+        Kelebihan: Sayap bercahaya.<br>
+        Penjelasan: Makhluk bersayap yang membawa cahaya.
+      </div>
+
+      <div class="card">
+        <img src="nyxari.jpg" alt="Nyxari">
+        <strong>Nyxari</strong><br>
+        HP: 1200 | MP: 1200<br>
+        Status Unggul: Kegelapan<br>
+        Kelebihan: Bayangan pekat.<br>
+        Penjelasan: Ras penyembah malam yang mampu menghilang dalam kegelapan.
+      </div>
+
+      <div class="card">
+        <img src="chromari.jpg" alt="Chromari">
+        <strong>Chromari</strong><br>
+        HP: 1100 | MP: 1000<br>
+        Status Unggul: Adaptasi<br>
+        Kelebihan: Tubuh berubah warna.<br>
+        Penjelasan: Ras bunglon yang bisa berubah warna kulit untuk kamuflase.
+      </div>
+
+      <div class="card">
+        <img src="aurivian.jpg" alt="Aurivian">
+        <strong>Aurivian</strong><br>
+        HP: 1400 | MP: 800<br>
+        Status Unggul: Emas spiritual<br>
+        Kelebihan: Energi emas.<br>
+        Penjelasan: Ras berkulit emas yang diyakini membawa berkah.
+      </div>
+
+      <div class="card">
+        <img src="oblivion.jpg" alt="Oblivion">
+        <strong>Oblivion</strong><br>
+        HP: 1300 | MP: 1100<br>
+        Status Unggul: Void<br>
+        Kelebihan: Kekuatan kehampaan.<br>
+        Penjelasan: Makhluk misterius yang mengendalikan kehampaan.
+      </div>
+
+      <div class="card">
+        <img src="floralis.jpg" alt="Floralis">
+        <strong>Floralis</strong><br>
+        HP: 1000 | MP: 1400<br>
+        Status Unggul: Tumbuhan<br>
+        Kelebihan: Menyatu dengan alam.<br>
+        Penjelasan: Ras bunga hidup yang bisa tumbuh kembali setelah terluka.
+      </div>
+
+      <div class="card">
+        <img src="stormborn.jpg" alt="Stormborn">
+        <strong>Stormborn</strong><br>
+        HP: 1500 | MP: 600<br>
+        Status Unggul: Petir<br>
+        Kelebihan: Kecepatan kilat.<br>
+        Penjelasan: Ras petir yang dapat memanggil badai, bergerak secepat kilat.
+      </div>
+
+      <div class="card">
+        <img src="morveth.jpg" alt="Morveth">
+        <strong>Morveth</strong><br>
+        HP: 1400 | MP: 900<br>
+        Status Unggul: Nekromansi<br>
+        Kelebihan: Mengendalikan mayat hidup.<br>
+        Penjelasan: Ras pengendali kematian.
+      </div>
+
+      <div class="card">
+        <img src="solari.jpg" alt="Solari">
+        <strong>Solari</strong><br>
+        HP: 1300 | MP: 1000<br>
+        Status Unggul: Matahari<br>
+        Kelebihan: Cahaya suci.<br>
+        Penjelasan: Ras yang memperoleh kekuatan dari matahari.
+      </div>
+
+      <div class="card">
+        <img src="dravok.jpg" alt="Dravok">
+        <strong>Dravok</strong><br>
+        HP: 1600 | MP: 700<br>
+        Status Unggul: Brutalitas<br>
+        Kelebihan: Tubuh monster.<br>
+        Penjelasan: Ras barbar dengan kekuatan fisik luar biasa.
+      </div>
+
+      <div class="card">
+        <img src="ethereal.jpg" alt="Ethereal">
+        <strong>Ethereal</strong><br>
+        HP: 800 | MP: 1800<br>
+        Status Unggul: Spirit<br>
+        Kelebihan: Wujud roh.<br>
+        Penjelasan: Makhluk roh yang tak sepenuhnya fisik.
+      </div>
+
+      <div class="card">
+        <img src="valaryn.jpg" alt="Valaryn">
+        <strong>Valaryn</strong><br>
+        HP: 1500 | MP: 1000<br>
+        Status Unggul: Kesatria<br>
+        Kelebihan: Kode kehormatan.<br>
+        Penjelasan: Ksatria legendaris dari kerajaan lama.
+      </div>
+
+    </div>
+  </section>  
+
+  <footer>
+    <p>✨ Valoria Chronicles – Where Legends Are Written ✨</p>
+  </footer>
+</body>
+</html>
